@@ -1,0 +1,43 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "recipients",
+        "type": "address[]"
+      },
+      {
+        "name": "amounts",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "doAirdrop",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "amounts",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "totalAmountToAirdrop",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
